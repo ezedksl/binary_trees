@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_sibling - Checks if a node has a sibling
- * @node: node to check if it has a sibling node
- * Return: Pointer to sibling node -or- NULL if has no sibling or @node is nil
+ * binary_tree_uncle - Checks if a node has an uncle
+ * @node: node to check if it has an uncle node
+ * Return: Pointer to uncle node -or- NULL if has no uncle or @node is nil
  */
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
